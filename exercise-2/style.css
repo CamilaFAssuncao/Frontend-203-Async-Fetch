@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightpink;
+    padding: 20px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px; 
+}
+
+input, button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#output {
+    background-color: yellow;
+}
